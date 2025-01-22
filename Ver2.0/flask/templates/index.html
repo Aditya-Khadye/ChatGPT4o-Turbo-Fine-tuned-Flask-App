@@ -1,0 +1,43 @@
+<!--
+Project: Finetuned AI Assistant
+Author: Aditya Khadye
+Date: 2025-01-22
+
+Description:
+This HTML file serves as the main user interface for interacting with the Finetuned AI Assistant. 
+It allows users to send prompts, view responses, and access chat history.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finetuned AI Assistant</title>
+    <!-- Link to the CSS stylesheet -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <main>
+        <section>
+            <h1>Finetuned AI Assistant</h1>
+            <!-- Input textarea for user prompts -->
+            <textarea id="input-prompt" placeholder="Type your question here"></textarea>
+            <!-- Button to send the prompt -->
+            <button onclick="sendPromptToChatGPT()">Send</button>
+            <!-- Textarea to display the chatbot's response -->
+            <textarea id="chatgpt-response" placeholder="Response will appear here" readonly></textarea>
+        </section>
+        <section>
+            <h2>Chat History</h2>
+            <!-- Textarea to display chat history -->
+            <textarea id="chat-history" readonly></textarea>
+        </section>
+    </main>
+    <!-- Link to the JavaScript file -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+
+</html>
