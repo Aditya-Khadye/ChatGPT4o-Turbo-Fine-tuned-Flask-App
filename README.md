@@ -1,4 +1,4 @@
-# Finetuned AI Assistant
+# Finetuned GPT4o-Turbo GenAI Assistant
 
 ### Author: Aditya Khadye  
 **Date**: January 22, 2025  
