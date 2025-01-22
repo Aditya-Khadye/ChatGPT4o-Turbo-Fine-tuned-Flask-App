@@ -7,7 +7,7 @@
 
 ## Project Overview
 
-The ** Personalized AI Assistant** is a chatbot application designed to interact with users by providing intelligent, context-aware responses. This project is implemented with a Flask backend, a responsive frontend, and an integrated SQLite database for storing chat history. The assistant also supports mock or customizable AI responses, with an optional feature for using fine-tuned training data. Being prior author, Aditya Khadye, Asim Ilter, Atahan Gozet, First Version 1.0, provided to Dr. Xudong Liu. This version is significantly, optimized by upto 50% reduction in code and memory requirements. Also made it modular for future integration.
+The **Personalized AI Assistant** is a chatbot application designed to interact with users by providing intelligent, context-aware responses. This project is implemented with a Flask backend, a responsive frontend, and an integrated SQLite database for storing chat history. The assistant also supports mock or customizable AI responses, with an optional feature for using fine-tuned training data. Being prior author, Aditya Khadye, Asim Ilter, Atahan Gozet, First Version 1.0, provided to Dr. Xudong Liu. This version is significantly, optimized by upto 50% reduction in code and memory requirements. Also made it modular for future integration.
 
 ---
 
